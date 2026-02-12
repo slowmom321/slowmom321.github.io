@@ -3,18 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>FTC Team 23928</title>
-  <meta name="description" content="FTC Team 23928 — robotics, engineering, and community outreach." />
+  <title>FTC Team 23928 | Double Quarter Pounders</title>
+  <meta name="description" content="FTC Team 23928 — Double Quarter Pounders. Robotics, engineering, and outreach." />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <div class="brand">
-        <div class="brand-title">FTC Team 23928</div>
-        <div class="brand-subtitle">Robotics • Engineering • Outreach</div>
-      </div>
-      <nav class="nav">
+      <a class="brand" href="index.html" aria-label="FTC Team 23928 home">
+        <div class="logo-badge">
+          <img src="assets/logo.png" alt="Double Quarter Pounders logo" />
+        </div>
+        <div>
+          <div class="brand-title">FTC Team 23928</div>
+          <div class="brand-subtitle">Double Quarter Pounders</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
         <a class="nav-link active" href="index.html">Team</a>
         <a class="nav-link" href="recruit.html">Join</a>
         <a class="nav-link" href="timeline.html">Timeline</a>
@@ -23,15 +30,21 @@
   </header>
 
   <main class="container">
-    <section class="hero">
-      <h1>We are FTC Team 23928</h1>
-      <p class="lead">
-        We design, build, and program competitive robots while learning real-world engineering,
-        teamwork, and leadership.
-      </p>
-      <div class="hero-cta">
-        <a class="button" href="recruit.html">Join the Team</a>
-        <a class="button button-secondary" href="timeline.html">See Our Season</a>
+    <section class="hero hero-split">
+      <div class="hero-left">
+        <h1>We are FTC Team 23928</h1>
+        <p class="lead">
+          We design, build, and program competitive robots while learning real-world engineering,
+          teamwork, and leadership.
+        </p>
+        <div class="hero-cta">
+          <a class="button" href="recruit.html">Join the Team</a>
+          <a class="button button-secondary" href="timeline.html">See Our Season</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img class="hero-image" src="assets/hero.png" alt="Team mascot burger on wheels" />
       </div>
     </section>
 
@@ -43,24 +56,34 @@
           professionalism, and giving back to our community.
         </p>
       </div>
+
       <div class="card">
         <h2>What We Do</h2>
         <ul>
-          <li>Robot design & build</li>
-          <li>Programming & autonomous routines</li>
+          <li>Robot design &amp; build</li>
+          <li>Programming &amp; autonomous routines</li>
           <li>CAD, prototyping, and testing</li>
           <li>Outreach, demos, and STEM service</li>
         </ul>
       </div>
+
       <div class="card">
         <h2>Contact</h2>
         <p>
           Email: <a href="mailto:ftc23928@example.com">ftc23928@example.com</a><br/>
           Location: (Add city/state here)
         </p>
-        <p class="muted">
-          Replace the email/location with your real team contact info.
-        </p>
+        <p class="muted">Replace the email/location with your real team contact info.</p>
+      </div>
+    </section>
+
+    <section class="timeline-block">
+      <h2>Timeline</h2>
+      <div class="timeline-list">
+        <div class="timeline-item"><strong>April 2024</strong> – <span class="muted">Outreach event at local school.</span></div>
+        <div class="timeline-item"><strong>March 2024</strong> – <span class="muted">Regional competition (advancing to state!).</span></div>
+        <div class="timeline-item"><strong>February 2024</strong> – <span class="muted">Robot upgrades and coding adjustments.</span></div>
+        <div class="timeline-item"><strong>January 2024</strong> – <span class="muted">Kickoff meeting and brainstorming.</span></div>
       </div>
     </section>
   </main>
